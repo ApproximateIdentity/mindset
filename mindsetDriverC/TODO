@@ -1,0 +1,6 @@
+* Add install rule for Makefile
+* Change makefile to use autoconf/automake/etc.
+* Add LICENCE info (and figure it out)
+* Add README info
+* Add documentation
+* Make compatible with ThinkGear Communications Protocol
