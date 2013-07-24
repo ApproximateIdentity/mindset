@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C614294D1752BE41003C91B6 /* ModelDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C614294C1752BE41003C91B6 /* ModelDefinition.m */; };
+		C61429501752C63A003C91B6 /* PredictionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C614294F1752C63A003C91B6 /* PredictionController.m */; };
+		C61429531752C906003C91B6 /* customTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C61429521752C905003C91B6 /* customTable.m */; };
+		C61429561752C932003C91B6 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C61429551752C932003C91B6 /* customCell.m */; };
+		C661AD5217342C21004E890C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD5117342C21004E890C /* UIKit.framework */; };
+		C661AD5417342C21004E890C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD5317342C21004E890C /* Foundation.framework */; };
+		C661AD5617342C21004E890C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD5517342C21004E890C /* CoreGraphics.framework */; };
+		C661AD5C17342C21004E890C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C661AD5A17342C21004E890C /* InfoPlist.strings */; };
+		C661AD5E17342C21004E890C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C661AD5D17342C21004E890C /* main.m */; };
+		C661AD6217342C21004E890C /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C661AD6117342C21004E890C /* XYZAppDelegate.m */; };
+		C661AD6417342C21004E890C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD6317342C21004E890C /* Default.png */; };
+		C661AD6617342C21004E890C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD6517342C21004E890C /* Default@2x.png */; };
+		C661AD6817342C21004E890C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD6717342C21004E890C /* Default-568h@2x.png */; };
+		C661AD6B17342C21004E890C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661AD6917342C21004E890C /* MainStoryboard.storyboard */; };
+		C661AD6E17342C21004E890C /* XYZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C661AD6D17342C21004E890C /* XYZFirstViewController.m */; };
+		C661AD7017342C21004E890C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD6F17342C21004E890C /* first.png */; };
+		C661AD7217342C21004E890C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD7117342C21004E890C /* first@2x.png */; };
+		C661AD7517342C21004E890C /* XYZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C661AD7417342C21004E890C /* XYZSecondViewController.m */; };
+		C661AD7717342C21004E890C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD7617342C21004E890C /* second.png */; };
+		C661AD7917342C21004E890C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C661AD7817342C21004E890C /* second@2x.png */; };
+		C661AD8117342C21004E890C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD8017342C21004E890C /* SenTestingKit.framework */; };
+		C661AD8217342C21004E890C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD5117342C21004E890C /* UIKit.framework */; };
+		C661AD8317342C21004E890C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661AD5317342C21004E890C /* Foundation.framework */; };
+		C661AD8B17342C21004E890C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C661AD8917342C21004E890C /* InfoPlist.strings */; };
+		C661AD8E17342C21004E890C /* MindsetEEGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C661AD8D17342C21004E890C /* MindsetEEGTests.m */; };
+		C66EE433174858E5002F05D8 /* ConceptDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EE432174858E5002F05D8 /* ConceptDefinition.m */; };
+		C66EE43617486274002F05D8 /* defineState.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EE43517486274002F05D8 /* defineState.m */; };
+		C66EE439174869BC002F05D8 /* endLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = C66EE438174869BC002F05D8 /* endLearning.m */; };
+		C6A1B7AA17456A5700FC8DD3 /* XYZThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A1B7A917456A5700FC8DD3 /* XYZThirdViewController.m */; };
+		C6A1B7B41745731400FC8DD3 /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A1B7B31745731400FC8DD3 /* tabBar.png */; };
+		C6A1B7BA174579B000FC8DD3 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A1B7B9174579B000FC8DD3 /* DataController.m */; };
+		C6A1B7BF1745985600FC8DD3 /* ThumbDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A1B7BE1745985600FC8DD3 /* ThumbDown.png */; };
+		C6A1B7C11745986100FC8DD3 /* ThumbUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A1B7C01745986100FC8DD3 /* ThumbUp.png */; };
+		C6CEB2911780BB4B00C7A337 /* dataM.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CEB2901780BB4B00C7A337 /* dataM.png */; };
+		C6CEB2931780BB5B00C7A337 /* learningM.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CEB2921780BB5B00C7A337 /* learningM.png */; };
+		C6CEB2951780BB6300C7A337 /* predictingM.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CEB2941780BB6300C7A337 /* predictingM.png */; };
+		C6DB58AD17354F60003BCA7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB58AC17354F60003BCA7B /* ViewController.m */; };
+		C6DB58B317355AEA003BCA7B /* customCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB58B217355AEA003BCA7B /* customCollectionCell.m */; };
+		C6EBDB34173600EB00213818 /* faceProfil.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EBDB33173600EB00213818 /* faceProfil.png */; };
+		C6EBDB36173600FB00213818 /* iconAppMob.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EBDB35173600FB00213818 /* iconAppMob.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C661AD8417342C21004E890C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C661AD4617342C21004E890C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C661AD4D17342C21004E890C;
+			remoteInfo = MindsetEEG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C614294B1752BE41003C91B6 /* ModelDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDefinition.h; sourceTree = "<group>"; };
+		C614294C1752BE41003C91B6 /* ModelDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDefinition.m; sourceTree = "<group>"; };
+		C614294E1752C63A003C91B6 /* PredictionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictionController.h; sourceTree = "<group>"; };
+		C614294F1752C63A003C91B6 /* PredictionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictionController.m; sourceTree = "<group>"; };
+		C61429511752C905003C91B6 /* customTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTable.h; sourceTree = "<group>"; };
+		C61429521752C905003C91B6 /* customTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTable.m; sourceTree = "<group>"; };
+		C61429541752C932003C91B6 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		C61429551752C932003C91B6 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		C661AD4E17342C21004E890C /* MindsetEEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindsetEEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C661AD5117342C21004E890C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C661AD5317342C21004E890C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C661AD5517342C21004E890C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C661AD5917342C21004E890C /* MindsetEEG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MindsetEEG-Info.plist"; sourceTree = "<group>"; };
+		C661AD5B17342C21004E890C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C661AD5D17342C21004E890C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C661AD5F17342C21004E890C /* MindsetEEG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MindsetEEG-Prefix.pch"; sourceTree = "<group>"; };
+		C661AD6017342C21004E890C /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		C661AD6117342C21004E890C /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		C661AD6317342C21004E890C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C661AD6517342C21004E890C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C661AD6717342C21004E890C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C661AD6A17342C21004E890C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C661AD6C17342C21004E890C /* XYZFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZFirstViewController.h; sourceTree = "<group>"; };
+		C661AD6D17342C21004E890C /* XYZFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZFirstViewController.m; sourceTree = "<group>"; };
+		C661AD6F17342C21004E890C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C661AD7117342C21004E890C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C661AD7317342C21004E890C /* XYZSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZSecondViewController.h; sourceTree = "<group>"; };
+		C661AD7417342C21004E890C /* XYZSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZSecondViewController.m; sourceTree = "<group>"; };
+		C661AD7617342C21004E890C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C661AD7817342C21004E890C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C661AD7F17342C21004E890C /* MindsetEEGTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindsetEEGTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C661AD8017342C21004E890C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C661AD8817342C21004E890C /* MindsetEEGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MindsetEEGTests-Info.plist"; sourceTree = "<group>"; };
+		C661AD8A17342C21004E890C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C661AD8C17342C21004E890C /* MindsetEEGTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindsetEEGTests.h; sourceTree = "<group>"; };
+		C661AD8D17342C21004E890C /* MindsetEEGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindsetEEGTests.m; sourceTree = "<group>"; };
+		C66EE431174858E5002F05D8 /* ConceptDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConceptDefinition.h; sourceTree = "<group>"; };
+		C66EE432174858E5002F05D8 /* ConceptDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConceptDefinition.m; sourceTree = "<group>"; };
+		C66EE43417486274002F05D8 /* defineState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defineState.h; sourceTree = "<group>"; };
+		C66EE43517486274002F05D8 /* defineState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defineState.m; sourceTree = "<group>"; };
+		C66EE437174869BC002F05D8 /* endLearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endLearning.h; sourceTree = "<group>"; };
+		C66EE438174869BC002F05D8 /* endLearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = endLearning.m; sourceTree = "<group>"; };
+		C6A1B7A817456A5700FC8DD3 /* XYZThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZThirdViewController.h; sourceTree = "<group>"; };
+		C6A1B7A917456A5700FC8DD3 /* XYZThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZThirdViewController.m; sourceTree = "<group>"; };
+		C6A1B7B31745731400FC8DD3 /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
+		C6A1B7B8174579AF00FC8DD3 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		C6A1B7B9174579B000FC8DD3 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		C6A1B7BE1745985600FC8DD3 /* ThumbDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbDown.png; sourceTree = "<group>"; };
+		C6A1B7C01745986100FC8DD3 /* ThumbUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbUp.png; sourceTree = "<group>"; };
+		C6CEB2901780BB4B00C7A337 /* dataM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dataM.png; sourceTree = "<group>"; };
+		C6CEB2921780BB5B00C7A337 /* learningM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = learningM.png; sourceTree = "<group>"; };
+		C6CEB2941780BB6300C7A337 /* predictingM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = predictingM.png; sourceTree = "<group>"; };
+		C6DB58AB17354F60003BCA7B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6DB58AC17354F60003BCA7B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6DB58B117355AEA003BCA7B /* customCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCollectionCell.h; sourceTree = "<group>"; };
+		C6DB58B217355AEA003BCA7B /* customCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCollectionCell.m; sourceTree = "<group>"; };
+		C6EBDB33173600EB00213818 /* faceProfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceProfil.png; sourceTree = "<group>"; };
+		C6EBDB35173600FB00213818 /* iconAppMob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconAppMob.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C661AD4B17342C21004E890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD5217342C21004E890C /* UIKit.framework in Frameworks */,
+				C661AD5417342C21004E890C /* Foundation.framework in Frameworks */,
+				C661AD5617342C21004E890C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661AD7B17342C21004E890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD8117342C21004E890C /* SenTestingKit.framework in Frameworks */,
+				C661AD8217342C21004E890C /* UIKit.framework in Frameworks */,
+				C661AD8317342C21004E890C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C661AD4517342C21004E890C = {
+			isa = PBXGroup;
+			children = (
+				C661AD5717342C21004E890C /* MindsetEEG */,
+				C661AD8617342C21004E890C /* MindsetEEGTests */,
+				C661AD5017342C21004E890C /* Frameworks */,
+				C661AD4F17342C21004E890C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C661AD4F17342C21004E890C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD4E17342C21004E890C /* MindsetEEG.app */,
+				C661AD7F17342C21004E890C /* MindsetEEGTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C661AD5017342C21004E890C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD5117342C21004E890C /* UIKit.framework */,
+				C661AD5317342C21004E890C /* Foundation.framework */,
+				C661AD5517342C21004E890C /* CoreGraphics.framework */,
+				C661AD8017342C21004E890C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C661AD5717342C21004E890C /* MindsetEEG */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD6017342C21004E890C /* XYZAppDelegate.h */,
+				C661AD6117342C21004E890C /* XYZAppDelegate.m */,
+				C661AD6917342C21004E890C /* MainStoryboard.storyboard */,
+				C61429511752C905003C91B6 /* customTable.h */,
+				C61429521752C905003C91B6 /* customTable.m */,
+				C61429541752C932003C91B6 /* customCell.h */,
+				C61429551752C932003C91B6 /* customCell.m */,
+				C614294E1752C63A003C91B6 /* PredictionController.h */,
+				C614294F1752C63A003C91B6 /* PredictionController.m */,
+				C66EE437174869BC002F05D8 /* endLearning.h */,
+				C66EE438174869BC002F05D8 /* endLearning.m */,
+				C66EE43417486274002F05D8 /* defineState.h */,
+				C66EE43517486274002F05D8 /* defineState.m */,
+				C66EE431174858E5002F05D8 /* ConceptDefinition.h */,
+				C66EE432174858E5002F05D8 /* ConceptDefinition.m */,
+				C6A1B7B8174579AF00FC8DD3 /* DataController.h */,
+				C6A1B7B9174579B000FC8DD3 /* DataController.m */,
+				C614294B1752BE41003C91B6 /* ModelDefinition.h */,
+				C614294C1752BE41003C91B6 /* ModelDefinition.m */,
+				C6DB58B117355AEA003BCA7B /* customCollectionCell.h */,
+				C6DB58B217355AEA003BCA7B /* customCollectionCell.m */,
+				C6DB58AB17354F60003BCA7B /* ViewController.h */,
+				C6DB58AC17354F60003BCA7B /* ViewController.m */,
+				C661AD6F17342C21004E890C /* first.png */,
+				C661AD7117342C21004E890C /* first@2x.png */,
+				C661AD6C17342C21004E890C /* XYZFirstViewController.h */,
+				C661AD6D17342C21004E890C /* XYZFirstViewController.m */,
+				C661AD7317342C21004E890C /* XYZSecondViewController.h */,
+				C661AD7417342C21004E890C /* XYZSecondViewController.m */,
+				C6A1B7A817456A5700FC8DD3 /* XYZThirdViewController.h */,
+				C6A1B7A917456A5700FC8DD3 /* XYZThirdViewController.m */,
+				C661AD7617342C21004E890C /* second.png */,
+				C6CEB2901780BB4B00C7A337 /* dataM.png */,
+				C6CEB2921780BB5B00C7A337 /* learningM.png */,
+				C661AD7817342C21004E890C /* second@2x.png */,
+				C6CEB2941780BB6300C7A337 /* predictingM.png */,
+				C661AD5817342C21004E890C /* Supporting Files */,
+			);
+			path = MindsetEEG;
+			sourceTree = "<group>";
+		};
+		C661AD5817342C21004E890C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD5917342C21004E890C /* MindsetEEG-Info.plist */,
+				C6EBDB35173600FB00213818 /* iconAppMob.png */,
+				C6A1B7BE1745985600FC8DD3 /* ThumbDown.png */,
+				C6A1B7C01745986100FC8DD3 /* ThumbUp.png */,
+				C6A1B7B31745731400FC8DD3 /* tabBar.png */,
+				C6EBDB33173600EB00213818 /* faceProfil.png */,
+				C661AD5A17342C21004E890C /* InfoPlist.strings */,
+				C661AD5D17342C21004E890C /* main.m */,
+				C661AD5F17342C21004E890C /* MindsetEEG-Prefix.pch */,
+				C661AD6317342C21004E890C /* Default.png */,
+				C661AD6517342C21004E890C /* Default@2x.png */,
+				C661AD6717342C21004E890C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C661AD8617342C21004E890C /* MindsetEEGTests */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD8C17342C21004E890C /* MindsetEEGTests.h */,
+				C661AD8D17342C21004E890C /* MindsetEEGTests.m */,
+				C661AD8717342C21004E890C /* Supporting Files */,
+			);
+			path = MindsetEEGTests;
+			sourceTree = "<group>";
+		};
+		C661AD8717342C21004E890C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C661AD8817342C21004E890C /* MindsetEEGTests-Info.plist */,
+				C661AD8917342C21004E890C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C661AD4D17342C21004E890C /* MindsetEEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C661AD9117342C21004E890C /* Build configuration list for PBXNativeTarget "MindsetEEG" */;
+			buildPhases = (
+				C661AD4A17342C21004E890C /* Sources */,
+				C661AD4B17342C21004E890C /* Frameworks */,
+				C661AD4C17342C21004E890C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindsetEEG;
+			productName = MindsetEEG;
+			productReference = C661AD4E17342C21004E890C /* MindsetEEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C661AD7E17342C21004E890C /* MindsetEEGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C661AD9417342C21004E890C /* Build configuration list for PBXNativeTarget "MindsetEEGTests" */;
+			buildPhases = (
+				C661AD7A17342C21004E890C /* Sources */,
+				C661AD7B17342C21004E890C /* Frameworks */,
+				C661AD7C17342C21004E890C /* Resources */,
+				C661AD7D17342C21004E890C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C661AD8517342C21004E890C /* PBXTargetDependency */,
+			);
+			name = MindsetEEGTests;
+			productName = MindsetEEGTests;
+			productReference = C661AD7F17342C21004E890C /* MindsetEEGTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C661AD4617342C21004E890C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Quentin Le Corre";
+			};
+			buildConfigurationList = C661AD4917342C21004E890C /* Build configuration list for PBXProject "MindsetEEG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C661AD4517342C21004E890C;
+			productRefGroup = C661AD4F17342C21004E890C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C661AD4D17342C21004E890C /* MindsetEEG */,
+				C661AD7E17342C21004E890C /* MindsetEEGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C661AD4C17342C21004E890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD5C17342C21004E890C /* InfoPlist.strings in Resources */,
+				C661AD6417342C21004E890C /* Default.png in Resources */,
+				C661AD6617342C21004E890C /* Default@2x.png in Resources */,
+				C661AD6817342C21004E890C /* Default-568h@2x.png in Resources */,
+				C661AD6B17342C21004E890C /* MainStoryboard.storyboard in Resources */,
+				C661AD7017342C21004E890C /* first.png in Resources */,
+				C661AD7217342C21004E890C /* first@2x.png in Resources */,
+				C661AD7717342C21004E890C /* second.png in Resources */,
+				C661AD7917342C21004E890C /* second@2x.png in Resources */,
+				C6EBDB34173600EB00213818 /* faceProfil.png in Resources */,
+				C6EBDB36173600FB00213818 /* iconAppMob.png in Resources */,
+				C6A1B7B41745731400FC8DD3 /* tabBar.png in Resources */,
+				C6A1B7BF1745985600FC8DD3 /* ThumbDown.png in Resources */,
+				C6A1B7C11745986100FC8DD3 /* ThumbUp.png in Resources */,
+				C6CEB2911780BB4B00C7A337 /* dataM.png in Resources */,
+				C6CEB2931780BB5B00C7A337 /* learningM.png in Resources */,
+				C6CEB2951780BB6300C7A337 /* predictingM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661AD7C17342C21004E890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD8B17342C21004E890C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C661AD7D17342C21004E890C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C661AD4A17342C21004E890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD5E17342C21004E890C /* main.m in Sources */,
+				C661AD6217342C21004E890C /* XYZAppDelegate.m in Sources */,
+				C661AD6E17342C21004E890C /* XYZFirstViewController.m in Sources */,
+				C661AD7517342C21004E890C /* XYZSecondViewController.m in Sources */,
+				C6DB58AD17354F60003BCA7B /* ViewController.m in Sources */,
+				C6DB58B317355AEA003BCA7B /* customCollectionCell.m in Sources */,
+				C6A1B7AA17456A5700FC8DD3 /* XYZThirdViewController.m in Sources */,
+				C6A1B7BA174579B000FC8DD3 /* DataController.m in Sources */,
+				C66EE433174858E5002F05D8 /* ConceptDefinition.m in Sources */,
+				C66EE43617486274002F05D8 /* defineState.m in Sources */,
+				C66EE439174869BC002F05D8 /* endLearning.m in Sources */,
+				C614294D1752BE41003C91B6 /* ModelDefinition.m in Sources */,
+				C61429501752C63A003C91B6 /* PredictionController.m in Sources */,
+				C61429531752C906003C91B6 /* customTable.m in Sources */,
+				C61429561752C932003C91B6 /* customCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661AD7A17342C21004E890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661AD8E17342C21004E890C /* MindsetEEGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C661AD8517342C21004E890C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C661AD4D17342C21004E890C /* MindsetEEG */;
+			targetProxy = C661AD8417342C21004E890C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C661AD5A17342C21004E890C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661AD5B17342C21004E890C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C661AD6917342C21004E890C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661AD6A17342C21004E890C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C661AD8917342C21004E890C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661AD8A17342C21004E890C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C661AD8F17342C21004E890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C661AD9017342C21004E890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C661AD9217342C21004E890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MindsetEEG/MindsetEEG-Prefix.pch";
+				INFOPLIST_FILE = "MindsetEEG/MindsetEEG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C661AD9317342C21004E890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MindsetEEG/MindsetEEG-Prefix.pch";
+				INFOPLIST_FILE = "MindsetEEG/MindsetEEG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C661AD9517342C21004E890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MindsetEEG.app/MindsetEEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MindsetEEG/MindsetEEG-Prefix.pch";
+				INFOPLIST_FILE = "MindsetEEGTests/MindsetEEGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C661AD9617342C21004E890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MindsetEEG.app/MindsetEEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MindsetEEG/MindsetEEG-Prefix.pch";
+				INFOPLIST_FILE = "MindsetEEGTests/MindsetEEGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C661AD4917342C21004E890C /* Build configuration list for PBXProject "MindsetEEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661AD8F17342C21004E890C /* Debug */,
+				C661AD9017342C21004E890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C661AD9117342C21004E890C /* Build configuration list for PBXNativeTarget "MindsetEEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661AD9217342C21004E890C /* Debug */,
+				C661AD9317342C21004E890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C661AD9417342C21004E890C /* Build configuration list for PBXNativeTarget "MindsetEEGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661AD9517342C21004E890C /* Debug */,
+				C661AD9617342C21004E890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C661AD4617342C21004E890C /* Project object */;
+}
